@@ -1,4 +1,4 @@
-# Pixel-Features-Lite
+# Pixel Features Lite
 Tired of flashing modules each time you clean flash? This module reduces them into a single one, all systemlessly.
 
 # Features
