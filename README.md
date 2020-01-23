@@ -1,7 +1,7 @@
 # Pixel Features Lite
 Tired of flashing modules each time you clean flash? This module reduces them into a single one, all systemlessly.
 
-# Features
+### Features
 
 -Spoofs your device to crosshatch (Pixel 3XL) or coral (Pixel 4XL).
 
