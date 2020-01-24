@@ -24,11 +24,15 @@ FOR GOOGLE PHONE, SELECT IT AS PHONE APP IN DEFAULT APPS OR YOU WON'T RECEIVE CA
 
 ### FULL
 -Basics features
+
 -Additional Pixel exclusives (Google Camera 7.2 [Urnyx05 2.1], Device Personalization Services w/Live Caption [Custom ROMs only - Not tested], Google Sounds, Google Recorder, Google Connectivity Services VPN)
 
 BACKUP YOUR GOOGLE CAMERA SETTINGS BEFORE. THIS WILL OVERRIDE YOUR OLD GCAM IF IT'S THE SAME PACKAGE NAME
 
 ### EXTRAS
+
 -Full pixel features
+
 -Replaces YouTube app to YT Vanced and emojis to iOS 13.2
+
 -OnePlus Screenrecorder port for custom ROMs
