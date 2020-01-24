@@ -1,8 +1,8 @@
 id=PFLite
-name=Pixel Features Lite
-version=v1.1
-versionCode=110
+name=Pixel Features Lite FULL
+version=v2.0
+versionCode=200
 author=luismi
-description=Adds crosshatch/coral props and features while adding iOS 13.2 emojis and YouTube Vanced, systemlessly.
+description=Pixel Features  all-in-one
 minMagisk=20200
 
