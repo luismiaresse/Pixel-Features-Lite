@@ -1,4 +1,4 @@
-# Pixel Features Lite
+![LOGO](https://img.xda-cdn.com/1hgayhZ9FvuYUwtO_prBPMdDwAU=/https%3A%2F%2Fi.imgur.com%2FgjudNho.png)
 Tired of flashing modules each time you clean flash? This module reduces them into a single one, all systemlessly.
 
 ## Packages
