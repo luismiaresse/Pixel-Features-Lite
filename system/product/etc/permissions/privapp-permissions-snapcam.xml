@@ -13,8 +13,8 @@
 
 <permissions>
 
-    <privapp-permissions package="com.android.camera2">
+    <privapp-permissions package="org.codeaurora.snapcam">
         <permission name="android.permission.BIND_WALLPAPER"/>
     </privapp-permissions>
-
+	
 </permissions>
