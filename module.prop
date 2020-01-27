@@ -1,8 +1,8 @@
 id=PFLite
-name=Pixel Features Lite FULL
-version=v2.0
-versionCode=200
+name=Pixel Features Lite EXTRAS
+version=v2.1
+versionCode=210
 author=luismi
-description=Pixel Features  all-in-one
+description=Pixel Features all-in-one w/Extras
 minMagisk=20200
 
