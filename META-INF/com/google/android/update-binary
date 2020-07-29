@@ -18,7 +18,7 @@ ui_print() { echo "$1"; }
 
 require_new_magisk() {
   ui_print "*******************************"
-  ui_print " Please install Magisk v19.0+! "
+  ui_print " Please install Magisk v20.2+! "
   ui_print "*******************************"
   exit 1
 }
@@ -34,11 +34,11 @@ print_modname() {
   len=$((len + 2))
   local pounds=`printf "%${len}s" | tr ' ' '*'`
   ui_print "$pounds"
-  ui_print " $MODNAME "
+  ui_print " PIXEL FEATURES LITE by luismi. Only for ANDROID 10 "
   ui_print "$pounds"
-  ui_print "*******************"
-  ui_print " Powered by Magisk "
-  ui_print "*******************"
+  ui_print "**********************************************"
+  ui_print " Powered by Magisk. Possible by Google Pixel. "
+  ui_print "**********************************************"
 }
 
 ##############
@@ -53,7 +53,7 @@ mount /data 2>/dev/null
 # Load utility functions
 [ -f /data/adb/magisk/util_functions.sh ] || require_new_magisk
 . /data/adb/magisk/util_functions.sh
-[ $MAGISK_VER_CODE -gt 18100 ] || require_new_magisk
+[ $MAGISK_VER_CODE -gt 20200 ] || require_new_magisk
 
 # Preperation for flashable zips
 setup_flashable
@@ -117,7 +117,7 @@ if is_legacy_script; then
   # service scripts
   $LATESTARTSERVICE && cp -af $TMPDIR/service.sh $MODPATH/service.sh
 
-  ui_print "- Setting permissions"
+  ui_print "- Setting GApps and features permissions"
   set_permissions
 else
   print_modname
@@ -125,7 +125,7 @@ else
   unzip -o "$ZIPFILE" customize.sh -d $MODPATH >&2
 
   if ! grep -q '^SKIPUNZIP=1$' $MODPATH/customize.sh 2>/dev/null; then
-    ui_print "- Extracting module files"
+    ui_print "- Extracting PFLite files to /data/adb/modules/. If you end up in a bootloop or have any compatibility problems, delete this folder."
     unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
 
     # Default permissions
@@ -169,5 +169,5 @@ cd /
 $BOOTMODE || recovery_cleanup
 rm -rf $TMPDIR
 
-ui_print "- Done"
+ui_print "- Done. Enjoy!"
 exit 0
