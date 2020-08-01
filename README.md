@@ -5,34 +5,39 @@
 
 ## MINIMAL
 
-Spoofs your device to crosshatch (Pixel 3XL) or coral (Pixel 4XL)
+Replaces your device model to crosshatch (Pixel 3XL) or coral (Pixel 4XL)
 
-Enables GPhotos unlimited photo storage at original quality. (Only crosshatch)
+Enables GPhotos unlimited photo storage at original quality. (Only on Pixel 3XL)
+
+Clean GPhotos app data after flashing the module is required to make it work
 
 
 ## BASICS
 
-Minimal features
+Previous features plus:
 
 Changes your bootanimation to Pixel (Dark)
 
 Replaces your system font to Google Sans
 
-Adds Google Phone, Styles & Wallpapers app and Pixel 19 Live Wallpapers
+Adds 3 Android 11 new icon shapes (Available to apply in Styles & Wallpapers app)
+
+Adds Google Phone, Styles & Wallpapers app and Pixel 4 Sounds
+
+Replaces emojis to Android 11 leaked ones. 
 
 
 ## FULL
 
-Basics features
+Previous features plus:
 
-Additional Pixel exclusives (Device Personalization Services w/Live Caption [Custom ROMs only - Untested], Google Recorder, Google Connectivity Services VPN)
+Additional Pixel exclusives (Google Recorder and Pixel 19 Live Wallpapers)
+
+Lawnchair Launcher pre-alpha as main launcher (Since v2.3, no need for Quickswitch for animations. Only select it as default launcher)
 
 
 ## EXTRAS
 
-Full pixel features
+Previous features plus:
 
-Replaces YouTube app to YT Vanced and emojis to iOS 13.2
-
-OnePlus Screenrecorder port for custom ROMs [Untested]
-
+Replaces YouTube app to YT Vanced and emojis to iOS 13.2 (instead of A11 emojis)
