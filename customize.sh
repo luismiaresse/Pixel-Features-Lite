@@ -11,8 +11,8 @@
 # Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maximum android version for your mod
 # Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
 # Uncomment DEBUG if you want full debug logs (saved to /sdcard)
-MINAPI=29
-MAXAPI=29
+MINAPI=30
+MAXAPI=30
 #DYNLIB=true
 #DEBUG=true
 
@@ -33,15 +33,7 @@ REPLACE_EXAMPLE="
 "
 
 # Construct your own list here
-REPLACE="
-/system/priv-app/AsusLauncherDev
-/system/priv-app/NexusLauncherPrebuilt
-/system/product/priv-app/Launcher3QuickStep
-/system/product/priv-app/NexusLauncherRelease
-/system/product/priv-app/ParanoidQuickStep
-/system/product/priv-app/ShadyQuickStep
-/system/product/priv-app/TrebuchetQuickStep
-"
+
 
 ##########################################################################################
 # Permissions

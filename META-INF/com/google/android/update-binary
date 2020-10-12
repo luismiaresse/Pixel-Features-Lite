@@ -18,7 +18,7 @@ ui_print() { echo "$1"; }
 
 require_new_magisk() {
   ui_print "*******************************"
-  ui_print " Please install Magisk v20.2+! "
+  ui_print " Please install Magisk v20.4+! "
   ui_print "*******************************"
   exit 1
 }
@@ -29,16 +29,10 @@ is_legacy_script() {
 }
 
 print_modname() {
-  local len
-  len=`echo -n $MODNAME | wc -c`
-  len=$((len + 2))
-  local pounds=`printf "%${len}s" | tr ' ' '*'`
-  ui_print "$pounds"
-  ui_print " PIXEL FEATURES LITE by luismi. Only for ANDROID 10 "
-  ui_print "$pounds"
-  ui_print "**********************************************"
-  ui_print " Powered by Magisk. Possible by Google Pixel. "
-  ui_print "**********************************************"
+  ui_print "  PIXEL FEATURES LITE by luismi, Android 11 version "
+  ui_print "******************************************************"
+  ui_print "    Powered by Magisk. Possible by Google Pixel. "
+  ui_print "******************************************************"
 }
 
 ##############
@@ -53,7 +47,7 @@ mount /data 2>/dev/null
 # Load utility functions
 [ -f /data/adb/magisk/util_functions.sh ] || require_new_magisk
 . /data/adb/magisk/util_functions.sh
-[ $MAGISK_VER_CODE -gt 20200 ] || require_new_magisk
+[ $MAGISK_VER_CODE -gt 20400 ] || require_new_magisk
 
 # Preperation for flashable zips
 setup_flashable
@@ -125,7 +119,8 @@ else
   unzip -o "$ZIPFILE" customize.sh -d $MODPATH >&2
 
   if ! grep -q '^SKIPUNZIP=1$' $MODPATH/customize.sh 2>/dev/null; then
-    ui_print "- Extracting PFLite files to /data/adb/modules/. If you end up in a bootloop or have any compatibility problems, delete this folder."
+    ui_print "- Extracting PFLite files to /data/adb/modules/."
+    ui_print "- If you end up in a bootloop or have any compatibility problems, delete this folder."
     unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
 
     # Default permissions
@@ -169,5 +164,5 @@ cd /
 $BOOTMODE || recovery_cleanup
 rm -rf $TMPDIR
 
-ui_print "- Done. Enjoy!"
+ui_print "- Done. Enjoy PFLite!"
 exit 0

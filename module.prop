@@ -1,8 +1,8 @@
 id=PFLite
-name=Pixel Features Lite EXTRAS
-version=v2.3
-versionCode=230
-author=luismi
-description=Pixel Features all-in-one w/Extras
-minMagisk=20200
+name=Pixel Features Lite Basics+
+version=v3.0-CUSTOM
+versionCode=300
+author=Luismii
+description=Pixel Features all-in-one, Android 11 version
+minMagisk=20400
 
