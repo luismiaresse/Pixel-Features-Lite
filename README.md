@@ -1,3 +1,5 @@
+# THIS MODULE IS DEPRECATED, USE AT YOUR OWN RISK!
+
 ![LOGO](https://img.xda-cdn.com/1hgayhZ9FvuYUwtO_prBPMdDwAU=/https%3A%2F%2Fi.imgur.com%2FgjudNho.png)
 <p style="text-align: center;">Tired of flashing single modules? This module does everything at once</p>
 
